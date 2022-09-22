@@ -12,6 +12,11 @@ header > h1{
     padding: 3rem;
 }
 
+img{
+    height: 70px;
+    width: 70px;
+
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -23,8 +28,6 @@ header > h1{
     margin: auto;
 }
 
-
-
 .centertext{
     text-align: center;
     width: 80%;
@@ -32,3 +35,16 @@ header > h1{
     text-align: center;
     padding-left: 20%;
     }
+
+.box > div{
+    width: calc(90%/3);
+    background-color: black;
+    margin-top: 40px;
+    float: left;
+}
+
+
+.cntr{
+   margin-left: 4%;
+    margin-right: 4%;
+}
