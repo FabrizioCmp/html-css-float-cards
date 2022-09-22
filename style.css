@@ -19,8 +19,10 @@ img{
 
 }
 
-.lgray{
-    color: rgb(62, 61, 61)
+.description{
+    color: rgb(62, 61, 61);
+    font-size: small;
+    line-height: 1.2rem;
 }
 
 .clearfix::after{
@@ -55,8 +57,8 @@ img{
 }
 
 .cntr{
-   margin-left: 4%;
-    margin-right: 4%;
+   margin-left: 5%;
+    margin-right: 5%;
 }
 
 .blue{
