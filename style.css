@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 header > h1{
@@ -13,10 +14,15 @@ header > h1{
 }
 
 img{
-    height: 70px;
-    width: 70px;
+    height: 90px;
+    width: 90px;
 
 }
+
+.lgray{
+    color: rgb(62, 61, 61)
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -41,10 +47,34 @@ img{
     background-color: black;
     margin-top: 40px;
     float: left;
+    color: white;
 }
 
+.box> div> img{
+    float: left;
+}
 
 .cntr{
    margin-left: 4%;
     margin-right: 4%;
+}
+
+.blue{
+    color: #6ECBEB;
+}
+
+.box > div > div{
+    padding-top: 11px;
+    padding-left: 105px;
+}
+
+.box > div > div > span{
+    display: inline-block;
+    margin-top: 8px;
+    font-size: small;
+    font-weight: 500;
+}
+
+span:nth-child(3){
+    color: #6ECBEB;
 }
